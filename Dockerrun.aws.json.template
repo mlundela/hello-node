@@ -2,7 +2,7 @@
   "AWSEBDockerrunVersion": "1",
   "Authentication": {
     "Bucket": "hello-bucket",
-    "Key": "dockercfg"
+    "Key": "{"https://index.docker.io/v1/":{"username":"<DOCKER_USER>:",password":"<DOCKER_PASS>:","email":"<DOCKER_EMAIL>"}}"
   },
   "Image": {
     "Name": "mlundela/hello-node:<TAG>",

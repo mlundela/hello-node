@@ -11,7 +11,7 @@ describe('Api',  () => {
           data += chunk;
         });
         response.on('end', () => {
-          assert.equal(data, 'Hello World');
+          assert.equal(data, 'Hello world');
           done();
         })
       });

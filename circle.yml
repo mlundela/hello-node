@@ -29,5 +29,5 @@ deployment:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
       - docker tag -f $IMAGE_NAME:$(git describe --tags --always) $IMAGE_NAME:latest
       - docker tag -f $IMAGE_NAME:$(git describe --tags --always) $IMAGE_NAME:$(git describe --tags --always)
-      - docker push $IMAGE_NAME:$(git describe --tags --always)
-      - docker push $IMAGE_NAME:latest
+      - docker push mlundela/$IMAGE_NAME:$(git describe --tags --always)
+      - docker push mlundela/$IMAGE_NAME:latest

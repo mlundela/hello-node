@@ -1,8 +1,5 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Authentication": {
-    "Bucket": "hello-bucket"
-  },
   "Image": {
     "Name": "mlundela/hello-node:<TAG>",
     "Update": "true"

@@ -11,5 +11,8 @@
     "example"
   ],
   "author": "Mads Lundeland <lundeland@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }

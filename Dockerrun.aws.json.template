@@ -1,0 +1,16 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "hello-bucket",
+    "Key": "dockercfg"
+  },
+  "Image": {
+    "Name": "mlundela/hello-node:<TAG>",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8000"
+    }
+  ]
+}
